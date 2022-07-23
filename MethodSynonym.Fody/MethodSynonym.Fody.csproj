@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+      <TargetFramework>netstandard2.0</TargetFramework>
+	  <LangVersion>10</LangVersion>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <LangVersion>preview</LangVersion>
+    <Nullable>enable</Nullable>
+
+	  <PackageId>MethodSynonym.Fody</PackageId>
+	  <Version>0.0.1</Version>
+	  <Authors>ettud</Authors>
+
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FodyHelpers" Version="6.6.3" />
+  </ItemGroup>
+
+</Project>
